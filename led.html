@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Putzen Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <a href="index.html"> <img id="logo" src="/WIN4_Logo_4c_red_negativ_4_weiss.svg" alt="Logo"></a>
+  </header>
+  <div class="button-menu">
+    <a href="buero.html" class="menu-button">Büro</a>
+    <a href="putzen.html" class="menu-button">Putzen</a>
+    <a href="allgemein.html" class="menu-button">Allgemein</a>
+  </div>
+  <h3>Datei hochladen</h3>
+  <form name="uploadForm" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="text" name="title" placeholder="Titel oder Bildunterschrift" required>
+      <input type="file" name="file" accept="*/*" required>
+      <button type="submit">Hochladen</button>
+  </form>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

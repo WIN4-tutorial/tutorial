@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(198, 30, 24);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+header {
+    margin: 20px 0;
+}
+
+#logo {
+    width: 150px;
+}
+
+.main-title {
+    font-size: 3em;
+    margin: 20px 0;
+    line-height: 1.2; 
+}
+
+.button-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: rgb(198, 30, 24);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #eee;
+}
+
+.hidden {
+    display: none;
+}
+
+video {
+    width: 50%;
+    height: auto; 
+}
+#logo {
+    cursor: pointer;
+}

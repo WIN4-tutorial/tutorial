@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interne Tutorials</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Passwortschutz -->
+  <div id="password-protection">
+    <h2>Passwortgeschützte Seite</h2>
+    <input type="password" id="password" placeholder="Passwort eingeben" onkeydown="if (event.key === 'Enter') checkPassword()">
+    <button class="menu-button" onclick="checkPassword()">Login</button>
+  </div>
+
+  <div id="content" class="hidden">
+    <header>
+      <img id="logo" src="/WIN4_Logo_4c_red_negativ_4_weiss.svg" alt="Logo">
+    </header>
+    
+    <!-- Hier den neuen Text hinzufügen -->
+    <h1 class="main-title">WIN4 Videotutorials</h1>
+
+    <div class="button-menu">
+      <a href="buero.html" class="menu-button">Büro</a>
+      <a href="led.html" class="menu-button">Content LED</a>
+      <a href="putzen.html" class="menu-button">Putzen</a>
+      <a href="allgemein.html" class="menu-button">Allgemein</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
